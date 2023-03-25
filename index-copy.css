@@ -22,3 +22,10 @@ input[type=password] {
 input:focus[type=email] {
   background-color: cyan;
 }
+
+/* 6 */
+input:checked[type=checkbox] {
+  width: 30px;
+  height: 30px;
+}
+
