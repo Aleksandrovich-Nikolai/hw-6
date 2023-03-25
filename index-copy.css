@@ -17,3 +17,8 @@ a:visited {
 input[type=password] {
   background-color: coral;
 }
+
+/* 5 */
+input:focus[type=email] {
+  background-color: cyan;
+}
