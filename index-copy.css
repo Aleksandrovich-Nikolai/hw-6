@@ -52,11 +52,23 @@ input:checked[type=checkbox] {
 }
 
 /* 7 */
-div.parent > .child {
+.parent > .child {
   border: 3px solid darkorchid;
 }
 
 /* 8 */
-div.parent1 * {
+.parent1 * {
   border: 3px solid darkorchid;
+}
+
+
+/* 9 */
+.title+p {
+  color: forestgreen;
+}
+
+
+/* 10 */
+.title1 ~ p{
+  color: fuchsia;
 }
