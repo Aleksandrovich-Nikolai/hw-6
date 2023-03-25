@@ -3,3 +3,8 @@ h1:hover {
   color: red;
 }
 
+/* 2 */
+input[type=text] {
+  border: 1px solid yellowgreen;
+}
+
