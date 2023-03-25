@@ -12,3 +12,8 @@ input[type=text] {
 a:visited {
   color: lightgrey;
 }
+
+/* 4 */
+input[type=password] {
+  background-color: coral;
+}
