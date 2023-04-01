@@ -14,21 +14,20 @@ a:visited {
 }
 
 /* 4 */
-input[type=password] {
+input[type=password]:disabled {
   background-color: coral;
 }
 
 /* 5 */
-input:focus[type=email] {
+input[type=email]:focus {
   background-color: cyan;
 }
 
 /* 6 */
-input:checked[type=checkbox] {
+input[type=checkbox]:checked {
   width: 30px;
   height: 30px;
 }
-
 
 .parent,
 .parent1 {
@@ -57,16 +56,14 @@ input:checked[type=checkbox] {
 }
 
 /* 8 */
-.parent1 * {
+.parent1 div {
   border: 3px solid darkorchid;
 }
 
-
 /* 9 */
-.title+p {
+.title + p {
   color: forestgreen;
 }
-
 
 /* 10 */
 .title1 ~ p{
